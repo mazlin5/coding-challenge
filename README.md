@@ -21,7 +21,7 @@ YipitData recently acquired a dataset of Oscar-nominated movies from 1927 - 2014
   - Linux `curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 unzip awscliv2.zip
 sudo ./aws/install`
-- Configure AWS CLI by typing `aws configure` in terminal and input your `region (us-east-1)` & `access keys` generated from aws user
+- Configure AWS CLI by typing `aws configure` in terminal and input your `region (us-east-1)` & `access keys` given from yipitdata
 - Install Boto3 library in Python using command `pip3 install boto3` or `pip install boto3`
 
 ### Instructions for running the scripts
