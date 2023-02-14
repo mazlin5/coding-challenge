@@ -23,11 +23,13 @@ unzip awscliv2.zip
 sudo ./aws/install`
 - Configure AWS CLI by typing `aws configure` in terminal and input your `region (us-east-1)` & `access keys` given from yipitdata
 - Install Boto3 library in Python using command `pip3 install boto3` or `pip install boto3`
+- Install the following python libraries `pip3 install boto3 pandas re csv`
 
 ### Instructions for running the scripts
-  - 
-
-
+  - Ensure connection to aws-cli so that you bypass permission errors when referencing the s3 bucket
+  - Execute file `source-code.zip/s3_operations.py`
+  - Once .py files has run, check csv files was created in working directory
+  
 ### Troubleshooting
   - Test aws-cli was installed correctly by typing `which aws`  or `aws --version` in your env terminal.
   - Ensure configure credentials are set properly by running command `aws configure`. If correct keys and region show correctly without input, then all is successful
